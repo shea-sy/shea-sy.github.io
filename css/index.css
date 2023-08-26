@@ -12871,6 +12871,11 @@ h1.page-title + .tag-cloud-list {
 #page-header #nav #nav-right .nav-button.long a.totopbtn span {
   width: 70px;
 }
+#page-header:not(.nav-fixed) #nav #nav-right .nav-button.long,
+#page-header:not(.nav-fixed) #nav #nav-right .nav-button.long a.totopbtn,
+#page-header:not(.nav-fixed) #nav #nav-right .nav-button.long a.totopbtn span {
+  width: 0px;
+}
 #page-header #nav #nav-right .long#nav-totop:hover {
   background-color: transparent;
 }

@@ -1,0 +1,15 @@
+#card-newest-comments .aside-list-item .name {
+    width: auto;
+}
+
+#console .console-card.tags {
+    height: auto;
+}
+
+#page-header:not(.nav-fixed) #percent {
+    width: 0px;
+}
+
+.author-content-item.personalities .title2 {
+    color: #3F886F!important;
+}
